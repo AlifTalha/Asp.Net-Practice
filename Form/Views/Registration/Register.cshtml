@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+<h3>FirstName: @ViewBag.First_Name</h3>
+<h3>LastName: @ViewBag.Last_Name</h3>
+<h3>Email: @ViewBag.Email</h3>
+<h3>Phone_Number: @ViewBag.Phone_Number</h3>
+<h3>Address: @ViewBag.Address</h3>
+
+<form>
+    <input type="text" placeholder="First_Name" class="form-control" name="First_Name" />
+    <input type="text" placeholder="Last_Name" class="form-control" name="Last_Name" />
+    <input type="email" placeholder="Email" class="form-control" name="Email" />
+    <input type="number" placeholder="Phone_Number" class="form-control" name="Phone_Number" />
+    <input type="text" placeholder="Address" class="form-control" name="Address" />
+    <input type="submit" value="Register" class="btn btn-success" />
+
+</form>

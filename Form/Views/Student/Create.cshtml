@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+<h3>Name: @ViewBag.Name</h3>
+<h3>Id: @ViewBag.Id</h3>
+<h3>Code: @ViewBag.Code</h3>
+
+<form method="post">
+    <input type="text" placeholder="Name" class="form-control"name="Name" />
+    <input type="text" placeholder="Id" class="form-control"name="Id" />
+    <input type="text" placeholder="Code" class="form-control"name="Code" />
+    <input type="submit" value="Create" class="btn btn-success" />
+</form>
+
