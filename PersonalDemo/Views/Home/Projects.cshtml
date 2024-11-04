@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Projects";
+}
+
+<h2>Projects</h2>
+
+<ul>
+    @foreach(var project in ViewBag.Projects)
+            {
+                <li>
+                    <b>@project.ProjectName</b>
+                    <ul>
+                        @if (project.ProjectDescription != null)
+                        {
+                            foreach (var desc in project.ProjectDescription)
+                            {
+                                <li>@desc</li>
+                            }
+                        }
+                    </ul>
+                </li>
+            }
+</ul>

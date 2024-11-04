@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Reference";
+}
+
+<h2>Reference</h2>
+
+<ol>
+    @foreach (var reference in ViewBag.References)
+    {
+        <li class="reference">
+            <div class="name">@reference.Name</div>
+            <div class="designation">@reference.Designation</div>
+            <div>@reference.Organization</div>
+            <div class="email">Email: <a href="mailto:@reference.Email">@reference.Email</a></div>
+            <div class="phone">Phone: @reference.MobileNumber</div>
+        </li>
+    }
+</ol>
+
+<style>
+    .reference {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .name {
+        font-weight: bold;
+    }
+
+    .email a {
+        color: blue;
+    }
+</style>
