@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Student</h2>
+@Html.ValidationSummary()
+
+<form method="post">
+    <input type="text" value="@Model.Name" placeholder="Name" class="form-control" name="Name" />
+    <span class="text-danger">@Html.ValidationMessage("Name")</span> <br />
+
+    <input type="text" value="@Model.ID" placeholder="ID (e.g., 21-44923-2)" class="form-control" name="ID" />
+    <span class="text-danger">@Html.ValidationMessage("ID")</span> <br />
+
+    <input type="date" value="@Model.Dob.ToString("yyyy-MM-dd")" placeholder="Date of Birth" class="form-control" name="Dob" />
+    <span class="text-danger">@Html.ValidationMessage("Dob")</span> <br />
+
+    <input type="text" value="@Model.Email" placeholder="Email" class="form-control" name="Email" />
+    <span class="text-danger">@Html.ValidationMessage("Email")</span> <br />
+
+    <input type="submit" value="Create" class="btn btn-success" />
+</form>
