@@ -1,0 +1,32 @@
+﻿@model IEnumerable<IntroEF.EF.Cours>
+
+@{
+    ViewBag.Title = "Course List";
+}
+
+<h2>Course List</h2>
+
+<a class="btn btn-primary" href="@Url.Action("CreateCourse", "Student")">Add New Course</a>
+
+@if (!Model.Any())
+{
+    <h3>No Courses Found</h3>
+}
+else
+{
+    <table class="table table-bordered">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Code</th>
+        </tr>
+        @foreach (var course in Model)
+        {
+            <tr>
+                <td>@course.Id</td>
+                <td>@course.Name</td>
+                <td>@course.Code</td>
+            </tr>
+        }
+    </table>
+}
