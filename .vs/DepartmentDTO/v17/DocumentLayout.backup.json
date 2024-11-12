@@ -1,0 +1,227 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Asp.net\\DepartmentDTO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\views\\department\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\views\\department\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\dtos\\departdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\dtos\\departdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|e:\\asp.net\\departmentdto\\departmentdto\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{BF4BD13A-D08E-4F35-AA08-79136FA38208}|DepartmentDTO\\DepartmentDTO.csproj|solutionrelative:departmentdto\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Student\\List.cshtml",
+              "RelativeDocumentMoniker": "DepartmentDTO\\Views\\Student\\List.cshtml",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Student\\List.cshtml",
+              "RelativeToolTip": "DepartmentDTO\\Views\\Student\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T12:17:40.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\DTOs\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "DepartmentDTO\\DTOs\\StudentDTO.cs",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\DTOs\\StudentDTO.cs",
+              "RelativeToolTip": "DepartmentDTO\\DTOs\\StudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:01:07.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "DepartmentDTO\\Views\\Student\\Create.cshtml",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "DepartmentDTO\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T12:17:04.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "DepartmentDTO\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "DepartmentDTO\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAowIwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:02:48.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "DepartmentDTO\\Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "DepartmentDTO\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:16:02.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DepartmentDTO\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "DepartmentDTO\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T09:54:37.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartDTO.cs",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\DTOs\\DepartDTO.cs",
+              "RelativeDocumentMoniker": "DepartmentDTO\\DTOs\\DepartDTO.cs",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\DTOs\\DepartDTO.cs",
+              "RelativeToolTip": "DepartmentDTO\\DTOs\\DepartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:07:45.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "DepartmentDTO\\Views\\Department\\Create.cshtml",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "DepartmentDTO\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T09:50:33.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\List.cshtml",
+              "RelativeDocumentMoniker": "DepartmentDTO\\Views\\Department\\List.cshtml",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\List.cshtml",
+              "RelativeToolTip": "DepartmentDTO\\Views\\Department\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T09:50:26.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\Details.cshtml",
+              "RelativeDocumentMoniker": "DepartmentDTO\\Views\\Department\\Details.cshtml",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\Details.cshtml",
+              "RelativeToolTip": "DepartmentDTO\\Views\\Department\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T09:49:39.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DepartmentDTO\\Views\\Department\\Delete.cshtml",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\Views\\Department\\Delete.cshtml",
+              "RelativeToolTip": "DepartmentDTO\\Views\\Department\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T09:57:01.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\EF\\Model1.edmx",
+              "RelativeDocumentMoniker": "DepartmentDTO\\EF\\Model1.edmx",
+              "ToolTip": "E:\\Asp.net\\DepartmentDTO\\DepartmentDTO\\EF\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "DepartmentDTO\\EF\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-12T09:13:55.68Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
