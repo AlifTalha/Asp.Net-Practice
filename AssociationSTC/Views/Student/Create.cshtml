@@ -1,0 +1,38 @@
+﻿@model DepartmentDTO.DTOs.StudentDTO
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Student</title>
+</head>
+<body>
+    <h2>Create Student</h2>
+
+    @using (Html.BeginForm("Create", "Student", FormMethod.Post))
+    {
+        <div>
+            <label for="FName">First Name</label>
+            @Html.TextBoxFor(m => m.FName)
+            @Html.ValidationMessageFor(m => m.FName, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            <label for="LName">Last Name</label>
+            @Html.TextBoxFor(m => m.LName)
+            @Html.ValidationMessageFor(m => m.LName, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            <label for="Dob">Date of Birth</label>
+            @Html.TextBoxFor(m => m.Dob, "{0:yyyy-MM-dd}", new { @type = "date" })
+            @Html.ValidationMessageFor(m => m.Dob, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            <label for="Cgpa">CGPA</label>
+            @Html.TextBoxFor(m => m.Cgpa)
+            @Html.ValidationMessageFor(m => m.Cgpa, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            <input type="submit" value="Create" />
+        </div>
+    }
+</body>
+</html>
