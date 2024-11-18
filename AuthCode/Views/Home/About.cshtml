@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title</h2>
+    <h3>@ViewBag.Message</h3>
+
+    <p>Use this area to provide additional information.</p>
+
+    <nav>
+        <ul>
+            <li>@Html.ActionLink("Student List", "List", "Student")</li>
+            <li>@Html.ActionLink("Department List", "List", "Department")</li>
+            <li>@Html.ActionLink("Login Page", "Index", "Login")</li>
+
+        </ul>
+    </nav>
+</main>
