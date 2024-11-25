@@ -1,0 +1,35 @@
+﻿@*@{
+        ViewBag.Title = "About";
+    }
+    <main aria-labelledby="title">
+        <h2 id="title">@ViewBag.Title.</h2>
+        <h3>@ViewBag.Message</h3>
+
+        <p>Use this area to provide additional information.</p>
+    </main>*@
+
+
+
+
+@{
+    ViewBag.Title = "About";
+}
+@*<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title</h2>*@
+    @*<h3>@ViewBag.Message</h3>*@
+
+    <h1 style="background-color: aqua">TRP Management System Requirements</h1>
+    <p></p>
+
+    <div>
+        <p>Navigation Links</p>
+        <ul>
+            <li>
+                @Html.ActionLink("Program List", "List", "Program", null, new { @class = "btn btn-primary" })
+            </li>
+            <li>
+                @Html.ActionLink("Channel List", "List", "Channel", null, new { @class = "btn btn-secondary" })
+            </li>
+        </ul>
+    </div>
+</main>

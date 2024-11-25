@@ -1,0 +1,38 @@
+﻿@model Mid_Demo.DTO.ChannelDTO
+@{
+    ViewBag.Title = "Create Channel";
+}
+
+<h2>Create New Channel</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.ChannelName)
+        @Html.TextBoxFor(m => m.ChannelName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.ChannelName)
+    </div>
+
+    @*<div class="form-group">
+            @Html.LabelFor(m => m.EstablishedYear)
+            @Html.TextBoxFor(m => m.EstablishedYear, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.EstablishedYear)
+        </div>*@
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.EstablishedYear, $"Established Year (1900 - {DateTime.Now.Year})")
+        @Html.TextBoxFor(m => m.EstablishedYear, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.EstablishedYear)
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Country)
+        @Html.TextBoxFor(m => m.Country, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Country)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Channel</button>
+}

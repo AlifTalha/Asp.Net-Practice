@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Search Channels";
+}
+
+<h2>Search Channels</h2>
+
+@using (Html.BeginForm("Search", "Channel", FormMethod.Get))
+{
+    <div class="form-group">
+        <label for="searchText">Search by Channel Name or Country:</label>
+        <input type="text" name="searchText" id="searchText" class="form-control" value="@ViewBag.SearchQuery" placeholder="Enter Channel Name or Country" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+}
+
+@if (ViewBag.TotalPages > 0)
+{
+    <h3>Search Results</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Channel Name</th>
+                <th>Established Year</th>
+                <th>Country</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var channel in Model)
+            {
+                <tr>
+                    <td>@channel.ChannelName</td>
+                    <td>@channel.EstablishedYear</td>
+                    <td>@channel.Country</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = channel.ChannelId }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = channel.ChannelId })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div>
+        @if (ViewBag.CurrentPage > 1)
+        {
+            @Html.ActionLink("Previous", "Search", new { searchText = ViewBag.SearchQuery, page = ViewBag.CurrentPage - 1, pageSize = 10 }) |
+}
+
+        @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+        {
+            @Html.ActionLink("Next", "Search", new { searchText = ViewBag.SearchQuery, page = ViewBag.CurrentPage + 1, pageSize = 10 })
+        }
+    </div>
+}
+else
+{
+    <p>No channels found for your search.</p>
+}

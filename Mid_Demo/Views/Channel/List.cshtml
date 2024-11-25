@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Mid_Demo.DTO.ChannelDTO>
+
+@{
+    ViewBag.Title = "Channel List";
+}
+
+<h2 class="my-4 text-center">@ViewBag.Title</h2>
+
+@using (Html.BeginForm("Search", "Channel", FormMethod.Get))
+{
+    <div class="mb-4">
+        <label for="searchText" class="form-label">Search by Channel Name or Country:</label>
+        <div class="input-group">
+            <input type="text" name="searchText" id="searchText" class="form-control"
+                   value="@ViewBag.SearchQuery" placeholder="Enter Channel Name or Country" />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+}
+
+<div class="mb-4 text-end">
+    @Html.ActionLink("Create New Channel", "Create", "Channel", null, new { @class = "btn btn-success" })
+</div>
+
+@if (Model.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Channel Name</th>
+                    <th scope="col">Established Year</th>
+                    <th scope="col">Country</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var channel in Model)
+                {
+                    <tr>
+                        <td>@channel.ChannelName</td>
+                        <td>@channel.EstablishedYear</td>
+                        <td>@channel.Country</td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Channel", new { id = channel.ChannelId })"
+                               class="btn btn-warning btn-sm">Edit</a>
+                            <a href="@Url.Action("Delete", "Channel", new { id = channel.ChannelId })"
+                               class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-info text-center">No channels found.</div>
+}

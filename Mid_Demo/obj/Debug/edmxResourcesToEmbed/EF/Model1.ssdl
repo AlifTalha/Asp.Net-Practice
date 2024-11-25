@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TRP_TablaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Channel_Table">
+    <Key>
+      <PropertyRef Name="ChannelId" />
+    </Key>
+    <Property Name="ChannelId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ChannelName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EstablishedYear" Type="int" Nullable="false" />
+    <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Program_Table">
+    <Key>
+      <PropertyRef Name="ProgramId" />
+    </Key>
+    <Property Name="ProgramId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProgramName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TRPScore" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="AirTime" Type="time" Precision="7" Nullable="false" />
+    <Property Name="CId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Uname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Role" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Program_Table_Channel_Table">
+    <End Role="Channel_Table" Type="Self.Channel_Table" Multiplicity="1" />
+    <End Role="Program_Table" Type="Self.Program_Table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Channel_Table">
+        <PropertyRef Name="ChannelId" />
+      </Principal>
+      <Dependent Role="Program_Table">
+        <PropertyRef Name="CId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TRP_TablaModelStoreContainer">
+    <EntitySet Name="Channel_Table" EntityType="Self.Channel_Table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Program_Table" EntityType="Self.Program_Table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Program_Table_Channel_Table" Association="Self.FK_Program_Table_Channel_Table">
+      <End Role="Channel_Table" EntitySet="Channel_Table" />
+      <End Role="Program_Table" EntitySet="Program_Table" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

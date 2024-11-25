@@ -1,0 +1,21 @@
+﻿
+
+@model Mid_Demo.DTO.ChannelDTO
+@{
+    ViewBag.Title = "Delete Channel";
+}
+
+<h2>Delete Channel</h2>
+
+<div class="alert alert-danger">
+    Are you sure you want to delete the channel <strong>@Model.ChannelName</strong>?
+</div>
+
+@using (Html.BeginForm("DeleteConfirmed", "Channel", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.Hidden("id", Model.ChannelId) <!-- Pass the channel ID here -->
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+    @Html.ActionLink("Cancel", "List", null, new { @class = "btn btn-secondary" })
+}

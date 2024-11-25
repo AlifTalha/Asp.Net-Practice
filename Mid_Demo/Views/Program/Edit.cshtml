@@ -1,0 +1,48 @@
+﻿@model Mid_Demo.DTOs.ProgramDTO
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2 class="my-4 text-center">@ViewBag.Title Program</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="card shadow p-4">
+        <h4 class="card-title text-center" style="background-color:aquamarine">Edit Program Details</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
+        @Html.HiddenFor(model => model.ProgramId)
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.ProgramName, "Program Name", new { @class = "form-label" })
+            @Html.EditorFor(model => model.ProgramName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ProgramName, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.TRPScore, "TRP Score", new { @class = "form-label" })
+            @Html.EditorFor(model => model.TRPScore, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.TRPScore, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.ChannelId, "Channel", new { @class = "form-label" })
+            @Html.EditorFor(model => model.ChannelId, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ChannelId, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.AirTime, "Air Time", new { @class = "form-label" })
+            @Html.EditorFor(model => model.AirTime, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.AirTime, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary me-2">Save</button>
+            @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-secondary" })
+        </div>
+    </div>
+}
